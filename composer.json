@@ -1,0 +1,22 @@
+{
+    "name": "gneto/catalogo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Geraldo",
+            "email": "onixblackcx@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "monolog/monolog": "2.0"
+    }
+}

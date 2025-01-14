@@ -1,0 +1,22 @@
+.background{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.content{
+    margin: 40px;
+    color: rgb(226, 225, 225);
+    font-size: 20px;
+}
+.title{
+    font-size: 25px;
+}
+.standard{
+    color: rgb(166, 164, 164);
+}
+
