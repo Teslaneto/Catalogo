@@ -35,7 +35,7 @@ class filmsModel
         $data = json_decode($response, true);
 
         // Verifica se o JSON foi decodificado corretamente
-        if (json_last_error($data) !== JSON_ERROR_NONE) {
+        if (json_last_error() !== JSON_ERROR_NONE) {
             GenerateLog::generateLog("ERROR", "O JSON NA API ESTAR COM ERRO DE DECODIFICAÇÃO | FilmsModel", []);
             die("Erro ao decodificar o JSON: " . json_last_error_msg());
         }
