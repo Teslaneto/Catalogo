@@ -54,7 +54,7 @@
                 <div class="col">
                     <a href="<?= BASE_URL ?>?page=MoviesDetails&episode_id=<?= $film['episode_id'] ?>" class="card-link">
                         <div class="card movie-item">
-                            <img src="<?= $film['image'] ?? 'https://via.placeholder.com/300x450'; ?>" 
+                            <img src="https://img.freepik.com/fotos-gratis/superficie-abstrata-e-texturas-de-parede-de-pedra-branca-de-concreta_74190-8189.jpg?t=st=1743679879~exp=1743683479~hmac=7f3404bed1237c3ea4cbae87eae9797490eb7dbb5399e3535f807499b70959e2&w=1380" 
                                 class="card-img-top movie-image" 
                                 alt="<?= htmlspecialchars($film['title']); ?>">
                             <div class="card-body">
